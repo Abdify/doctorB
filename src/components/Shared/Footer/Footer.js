@@ -1,7 +1,7 @@
 import { faFacebookF, faGooglePlusG, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import FooterCol from '../FooterCol/FooterCol';
+import FooterCol from '../../Shared/FooterCol/FooterCol';
 import './Footer.css';
 
 const Footer = () => {
@@ -50,7 +50,7 @@ const Footer = () => {
                         </ul>
                         <div className="mt-5">
                             <h6>Call now</h6>
-                            <button className="btn primaryBtn">+2025550295</button>
+                            <button className="btn btn-brand">+2025550295</button>
                         </div>
                     </FooterCol>
                 </div>

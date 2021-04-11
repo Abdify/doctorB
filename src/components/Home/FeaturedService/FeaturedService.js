@@ -20,7 +20,7 @@ const FeaturedService = () => {
                             nesciunt officia nemo nam, delectus minima velit beatae iste praesentium
                             ad repudiandae, similique excepturi sapiente.
                         </p>
-                        <button className="btn primaryBtn">Learn More</button>
+                        <button className="btn btn-brand">Learn More</button>
                     </div>
                 </div>
             </div>

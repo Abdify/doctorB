@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import doctor from '../../../images/doctor.png';
 import './MakeAppointment.css';
 
@@ -19,7 +20,9 @@ const MakeAppointment = () => {
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Atque
                             magnam ad consequuntur assumenda saepe hic amet nemo ea facere a!
                         </p>
-                        <button className="btn primaryBtn">Learn More</button>
+                        <Link to="/appointment">
+                            <button className="btn btn-brand">Learn More</button>
+                        </Link>
                     </div>
                 </div>
             </div>
