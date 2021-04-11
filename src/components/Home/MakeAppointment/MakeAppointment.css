@@ -1,0 +1,13 @@
+.bgImg{
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    height: 420px;
+    background-position: center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.61)), url(../../../images/appointmentBg.png);
+    
+}
+
+.make-appointment img{
+    height: 550px;
+    transform: translateY(-130px);
+}

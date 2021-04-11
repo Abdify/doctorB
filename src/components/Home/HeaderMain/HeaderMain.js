@@ -13,7 +13,7 @@ const HeaderMain = () => {
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo aliquid, amet
                         sint similique accusamus iusto harum neque voluptatem consequatur!
                     </p>
-                    <button className="btn btn-primary">GET APPOINTMENT</button>
+                    <button className="btn primaryBtn">GET APPOINTMENT</button>
                 </div>
                 <div className="col-md-6">
                     <img src={chair} alt="" className="img-fluid" />
