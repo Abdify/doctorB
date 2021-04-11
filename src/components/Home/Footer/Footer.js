@@ -1,8 +1,8 @@
-import React from 'react';
-import './Footer.css';
-import FooterCol from '../FooterCol/FooterCol';
+import { faFacebookF, faGooglePlusG, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
+import React from 'react';
+import FooterCol from '../FooterCol/FooterCol';
+import './Footer.css';
 
 const Footer = () => {
     const noNamed = [
@@ -50,7 +50,7 @@ const Footer = () => {
                         </ul>
                         <div className="mt-5">
                             <h6>Call now</h6>
-                            <button className="btn btn-primary">+2025550295</button>
+                            <button className="btn primaryBtn">+2025550295</button>
                         </div>
                     </FooterCol>
                 </div>
